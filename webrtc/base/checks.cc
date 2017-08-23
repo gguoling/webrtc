@@ -21,7 +21,7 @@
 #endif
 
 
-#if USE_EXECINFO
+#ifdef USE_EXECINFO
 #include <cxxabi.h>
 #include <execinfo.h>
 #endif
